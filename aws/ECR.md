@@ -36,7 +36,7 @@ aws ecr --profile <aws-credentials-profile> get-login-password --region eu-west-
     docker tag <app-name>:latest <aws-account-id>.dkr.ecr.eu-west-2.amazonaws.com/<app-name>:<version>
     ```
 
-Note: To find the <version> to build look at the latest tagged version in ECR and increment appropriately
+Note: To find the <version> to build look at the latest tagged version in ECR and increment appropriately. Semantic versioning info [here](../misc/VERSIONING.md).
 
 ### Pushing to ECR
 
