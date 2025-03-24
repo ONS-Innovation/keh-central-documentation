@@ -1,7 +1,5 @@
 # Setup AWS CLI
 
-
-
 Install AWS CLI
 
 ```bash
