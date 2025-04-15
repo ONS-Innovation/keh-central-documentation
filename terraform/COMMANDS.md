@@ -2,7 +2,7 @@
 
 This page outlines the general commands for managing infrastructure using Terraform.
 
-### Updating Resources with Terraform
+## Updating Resources with Terraform
 
 When infrastructure code has been modified, follow these steps to update the deployed resources:
 
@@ -50,6 +50,6 @@ When infrastructure code has been modified, follow these steps to update the dep
 
 - Once terraform has completed successfully, your infrastructure will be updated according to your configuration changes.
 
-### Destroying Resources
+## Destroying Resources
 
 To remove all resources managed by your terraform configuration:
