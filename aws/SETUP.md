@@ -6,14 +6,14 @@ Install AWS CLI
 brew install awscli
 ```
 
-
 Configure default AWS CLI:
+
 ```bash
 aws configure
 ```
 
-
 Configure AWS CLI Profile:
+
 ```bash
 aws configure --profile <profile-name>
 ```
@@ -47,7 +47,7 @@ aws_access_key_id = AB99999999999999999YZ
 aws_secret_access_key = AB99999999999999999YZ
 ```
 
-### Naming convention
+## Naming convention
 
 The profile name should follow the following convention:
 
@@ -58,6 +58,7 @@ The profile name should follow the following convention:
 For example: ```sdp-dev-ecr-user```
 
 Usage:
-```bash     
+
+```bash
 aws ecr --profile sdp-dev-ecr-user get-login-password --region eu-west-2
 ```

@@ -14,6 +14,7 @@ Additional labels for pre-release and build metadata can be appended:
 - Build metadata: Additional build information (e.g. 1.0.0+20130313144700)
 
 Examples:
+
 - 1.0.0 - Initial release
 - 1.0.1 - Bug fixes
 - 1.1.0 - New features added
